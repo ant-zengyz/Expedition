@@ -14,6 +14,7 @@
     <modules>
         <module>../pom-eureka</module>
         <module>../pom-client</module>
+        <module>../pom-zuul</module>
     </modules>
 
     <parent>
