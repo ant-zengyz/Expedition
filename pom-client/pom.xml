@@ -11,6 +11,10 @@
     <name>pom-client</name>
     <description>POM项目：CLIENT依赖</description>
 
+    <modules>
+        <module>../client-common</module>
+    </modules>
+
     <parent>
         <groupId>com.example</groupId>
         <artifactId>pom-parent</artifactId>
