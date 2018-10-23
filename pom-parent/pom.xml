@@ -13,6 +13,7 @@
 
     <modules>
         <module>../pom-eureka</module>
+        <module>../pom-client</module>
     </modules>
 
     <parent>
