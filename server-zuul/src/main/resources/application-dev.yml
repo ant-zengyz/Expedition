@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: server-zuul
+
+server:
+  port:  7001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zez:zez@127.0.0.1:6001/eureka/
+  instance:
+    prefer-ip-address: true
+
+zuul:
+  routes:
+    authority:
+      path: /api/authority/**
+      serviceId: client-authority
