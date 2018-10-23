@@ -2,13 +2,19 @@ package com.example.common.constants;
 
 /**
  * 描述：
- * User: 曾远征
- * Date: 2018-10-21
- * Time: 21:40
+ * @author: 曾远征
+ * @date: 2018-10-21
+ * @time: 0:25
  */
 public enum  ResultEnum {
 
+    /**
+     * 统一成功返回状态
+     */
     SUCC("200", "成功"),
+    /**
+     * 统一失败返回状态
+     */
     FAILED("500", "失败");
 
     private String code;

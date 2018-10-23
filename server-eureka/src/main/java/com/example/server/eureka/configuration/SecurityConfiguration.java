@@ -8,9 +8,9 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 
 /**
  * 描述：（Spring Cloud 2.0 以上）的security默认启用了csrf检验，要在eurekaServer端配置security的csrf检验为false.不然无法将服务注册到注册中心
- * User: 曾远征
- * Date: 2018-10-20
- * Time: 14:13
+ * @author: 曾远征
+ * @date: 2018-10-21
+ * @time: 0:25
  */
 @Configuration
 @EnableWebSecurity

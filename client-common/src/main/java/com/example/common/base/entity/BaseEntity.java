@@ -13,9 +13,9 @@ import java.util.Date;
 
 /**
  * 描述：
- * User: 曾远征
- * Date: 2018-10-21
- * Time: 0:25
+ * @author: 曾远征
+ * @date: 2018-10-21
+ * @time: 0:25
  */
 @MappedSuperclass
 @Data

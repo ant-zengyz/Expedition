@@ -10,12 +10,21 @@ import java.io.Serializable;
 
 /**
  * 描述：
- * User: 曾远征
- * Date: 2018-10-21
- * Time: 10:42
+ * @author: 曾远征
+ * @date: 2018-10-21
+ * @time: 0:25
  */
 @Data
 public class PagingBean implements Serializable {
+
+    /**
+     * 正序
+     */
+    public static final String ASC="ASC";
+    /**
+     * 倒序
+     */
+    public static final String DESC="DESC";
 
     /**
      * 当前页,分页从0开始，当前页是0就会查询第一页
@@ -41,7 +50,7 @@ public class PagingBean implements Serializable {
     public Pageable getPage() {
         Sort sort;
 
-        if ("asc".equalsIgnoreCase(xsc)) {
+        if (PagingBean.ASC.equalsIgnoreCase(xsc)) {
             sort = new Sort(Sort.Direction.ASC, orderBy);
         } else {
             sort = new Sort(Sort.Direction.DESC, orderBy);

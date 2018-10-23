@@ -1,10 +1,10 @@
 package com.example.common.tools;
 
 /**
- * 描述：雪花算法
- * User: 曾远征
- * Date: 2018-10-21
- * Time: 0:10
+ * 描述：
+ * @author: 曾远征
+ * @date: 2018-10-21
+ * @time: 0:25
  */
 public class SnowflakesTool {
 
