@@ -11,6 +11,10 @@
     <name>pom-zuul</name>
     <description>POM项目：ZUUL依赖</description>
 
+    <modules>
+        <module>../server-zuul</module>
+    </modules>
+
     <parent>
         <groupId>com.example</groupId>
         <artifactId>pom-parent</artifactId>
